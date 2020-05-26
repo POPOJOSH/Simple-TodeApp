@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: #ffffff;
+    background-color: #eeeeee;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: #a78905;    
+    border-radius: 5px; 
+    overflow: hidden;
+}
+.todo-container h1{
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    background-color: #01014d;
+    color: #eeeeee;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 40px;
+    text-align: center;
+}
+
+.todo-container{
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+}
+
+.option-container{
+    background-color: #a78905;
+    margin: 5px;
+    padding: 5px; 
+    border-radius: 5px;
+}
+
+#removeAll-btn{
+    color: #eeeeee;
+    background-color: #a78905;
+    font-size: 16px;    
+    float: right;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.remove-btn{
+    color: #eeeeee;
+    background-color: #a78905;
+    font-size: 16px;
+    float: right;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#inst{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+#task{
+    background-color: #eeeeee; 
+    padding: 10px;
+    margin: 5px;
+    width: 330px;
+    border: none;
+    border-radius: 5px;
+}
+.add-Btn{
+    color: #eeeeee;
+    background-color: #01014d;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.add-Btn:hover, .add-Btn:focus{
+    text-decoration: none;
+    cursor: pointer;
+}
+.choice-container ol{
+    margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .add-Btn {
+        width: 330px;
+    }
+}
