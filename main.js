@@ -1,8 +1,4 @@
-
-
-
-
-
+// get elements
 const addOption = document.getElementById('Form');
 const taskList = document.getElementById('task-list');
 const removeallBtn = document.getElementById('removeAll-btn');
